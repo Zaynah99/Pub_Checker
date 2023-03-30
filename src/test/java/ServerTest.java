@@ -12,7 +12,7 @@ public class ServerTest {
     @BeforeEach
     public void setUp() {
         server = new Server();
-        guest = new Guest("Zaynah", 23, 50, 89);
+        guest = new Guest("Zaynah", 23, 50, 89, false);
     }
 
     // TODO: test that guest can only get served if over 18 -> if over 18 or boolean?
@@ -40,22 +40,16 @@ public class ServerTest {
         assertThat(server.guestBanned(guest)).isFalse();
     }
 
-
-
-}
-
-
-
-
-
-
-
-
-
     // TODO: test that guest can only get served if guest can pay in local currency (add £ char as currency)
 
-    // EXTENSIONS
+//    @Test
+//    public void isGuestPaying£(){
+//        assertThat(server.
 
+    }
+
+
+    // EXTENSIONS
     // TODO: test that guest can only get served if server can make favourite drink
     //  (give server a list of drinks (strings) it can make)
 

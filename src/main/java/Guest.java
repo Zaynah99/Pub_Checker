@@ -7,11 +7,12 @@ public class Guest {
     public boolean bannedFromPub;
 
 
-    public Guest(String name, int age, int money, int sober){
+    public Guest(String name, int age, int money, int sober, boolean bannedFromPub){
         this.name = name;
         this.age = age;
         this.money = money;
         this.sober = sober;
+        this.bannedFromPub = bannedFromPub;
     }
     public int getAge(){
         return this.age;
