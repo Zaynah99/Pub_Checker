@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Guest {
 
     private final int money;
@@ -5,11 +7,11 @@ public class Guest {
     private String name;
     private int sober;
     public boolean bannedFromPub;
-
     public boolean guestPaying£;
 
 
-    public Guest(String name, int age, int money, int sober, boolean bannedFromPub,boolean guestPaying£){
+
+    public Guest(String name, int age, int money, int sober, boolean bannedFromPub, boolean guestPaying£) {
         this.name = name;
         this.age = age;
         this.money = money;
@@ -17,7 +19,8 @@ public class Guest {
         this.bannedFromPub = bannedFromPub;
         this.guestPaying£ = guestPaying£;
     }
-    public int getAge(){
+
+    public int getAge() {
         return this.age;
     }
 
@@ -25,13 +28,9 @@ public class Guest {
         return this.money;
     }
 
-    public int getSober(){
+    public int getSober() {
         return this.sober;
     }
 
-    //public boolean
-
-
-
-    }
+}
 
