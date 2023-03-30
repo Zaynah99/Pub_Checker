@@ -1,7 +1,4 @@
 public class Server {
-//    public boolean canServeGuest(Guest guest){
-//        return true;
-
 
     public boolean checkIfOldEnough(Guest guest) {
         if (guest.getAge() >= 18) {
