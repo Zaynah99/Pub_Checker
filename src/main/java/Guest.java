@@ -6,13 +6,16 @@ public class Guest {
     private int sober;
     public boolean bannedFromPub;
 
+    public boolean guestPaying£;
 
-    public Guest(String name, int age, int money, int sober, boolean bannedFromPub){
+
+    public Guest(String name, int age, int money, int sober, boolean bannedFromPub,boolean guestPaying£){
         this.name = name;
         this.age = age;
         this.money = money;
         this.sober = sober;
         this.bannedFromPub = bannedFromPub;
+        this.guestPaying£ = guestPaying£;
     }
     public int getAge(){
         return this.age;
@@ -25,9 +28,8 @@ public class Guest {
     public int getSober(){
         return this.sober;
     }
-    public boolean banned(){
-        return this.bannedFromPub;
-    }
+
+    //public boolean
 
 
 

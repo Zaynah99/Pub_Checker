@@ -24,14 +24,18 @@ public class Server {
         return false;
     }
 
-    public boolean guestBanned (Guest guest){
-        if (guest.bannedFromPub == true){
+    public boolean guestBanned (Guest guest) {
+        if (guest.bannedFromPub == true) {
             return true;
         }
         return false;
-
     }
 
-
+    public boolean guestPaying£ (Guest guest) {
+        if (guest.guestPaying£ == true) {
+            return true;
+        }
+        return false;
+    }
 
 }
